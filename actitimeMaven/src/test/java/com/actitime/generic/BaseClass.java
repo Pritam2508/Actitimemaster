@@ -22,7 +22,7 @@ import com.actitime.pom.LoginPage;
 
 public class BaseClass {
 	
-	public static WebDriver driver;
+	public  WebDriver driver;
 	public  WebDriverWait wait;
 
 	@Parameters("browser")
